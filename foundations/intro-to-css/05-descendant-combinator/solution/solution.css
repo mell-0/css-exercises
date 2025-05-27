@@ -12,3 +12,29 @@ div .text
 .container p
 
 */
+
+/*
+Final notes:
+- You can select elements by using: tag (div, p, etc) & class & id selectors
+- class selector: .SomeClass
+- id selector: #SomeId
+
+- Chaining selectors: .class1.class2
+> this targets elements with both class 1 & 2
+> Ex: class = "class1 class2" 
+> Note, if you target class2, the ex element above will still get targeted 
+
+- Grouping selectors: class1, class2
+> this target elements that has either class1 or class2
+> Ex: 
+class = "class1"
+class = "class2"
+
+- Nested selectors: .class1 .class2
+> this targets class2 elements that are in class1 elements
+> Ex: 
+<div class= "class1"> 
+  <div class= "class2"> </div>
+</div> 
+
+*/
