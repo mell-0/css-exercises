@@ -8,16 +8,25 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/* 
+  moved this selector underneath the .para selector bc they have the same weight so the last one 
+  that was called will override.
+*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/* 
+  added .button to .confirm
+  using #confirm-button would work too 
+  moving .confirm underneath the .button selector would work too
+*/
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +38,18 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* 
+  moved .child underneath the div.text selector because the selectors have the same weight
+  .text .child selector would work too or div.text .child 
+*/
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
