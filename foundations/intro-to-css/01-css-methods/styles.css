@@ -5,3 +5,8 @@ div {
     font-weight: bold;
     text-align: center;
 }
+
+/* seems like css priority goes in this order: inline, external, then internal css */
+/* p, div, button {
+    background-color:aqua;
+} */
