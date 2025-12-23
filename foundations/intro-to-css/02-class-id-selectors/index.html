@@ -8,11 +8,68 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p class="odd">Number 1 - I'm a class!</p>
-    <div id="second">Number 2 - I'm one ID.</div>
-    <p class="odd size">Number 3 - I'm a class, but cooler!</p>
-    <div class="size" id="fourth">Number 4 - I'm another ID.</div>
-    <p class="odd">Number 5 - I'm a class!</p>
+    <p class="oddNum">Number 1 - I'm a class!</p>
+    <div id="element2">Number 2 - I'm one ID.</div>
+    <p class="oddNum element3">Number 3 - I'm a class, but cooler!</p>
+    <div id="element4">Number 4 - I'm another ID.</div>
+    <p class="oddNum">Number 5 - I'm a class!</p>
+
+    <!-- <div class="parent">
+      hi
+      <div class="child1">
+        yo
+        <div class="child2">
+          bye
+        </div>
+      </div>
+    </div>
+    <div class="child2">farewell</div> -->
+
   </body>
 </html>
 
+<!-- 
+Notes:
+Selecting:
+> Basics: 
+
+- Element selectors: p, div, button, etc
+
+- Class selectors: 
+<p class="class1">
+.class1 {
+}
+
+- Id selectors:
+<p id="class1">
+#class1 {
+}
+
+- multi selectors: grouping more than 1 element, class, or id
+p, div, #class1 {
+}
+
+- Chaining selectors: elements with more than 1 class or id
+<p class="class1" id="someid1">
+.class1#someid1 {
+}
+or
+<p class="class1 class2">  -this p element has 2 classes
+.class1.class2 {
+}
+
+- Nestedd selectors: elements that are inside other elements
+<div class="parent">
+  <div class="child1"> 
+    <div class="class2">
+    </div>
+  </div>
+</div>
+<div class="class2"> </div>
+
+// this target the class2 class in the nested divs only
+.parent .child1 .child2 { 
+}
+
+
+-->
